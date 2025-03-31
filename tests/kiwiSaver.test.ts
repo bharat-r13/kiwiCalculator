@@ -11,7 +11,6 @@ test.beforeEach(async ({ page }) => {
 // test('KiwiSaver Calculator Happy Path for First Home', async ({ page }) => {
 //     const kiwiSaver = new KiwiSaverPage(page);
   
-//     // Test steps without 'this' keyword
 //     await kiwiSaver.fillAge(page, kiwiSaverData.user.age);
 //     await kiwiSaver.clickNext(page);
 //     await kiwiSaver.assertQuestionText(page, 'What will you be using your KiwiSaver savings for first?');
